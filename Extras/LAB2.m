@@ -1,6 +1,6 @@
 clc; close all; clear all; warning off;
 
-c=imread('C:\Users\admin\Documents\1702\cropped.jpg');
+c=imread('C:\Users\abint\Documents\GitHub\MIPLAB6thSem\Extras\cropped.jpg');
 bi=im2bw(c);
 
 canny=edge(bi,'canny'); 
