@@ -1,3 +1,5 @@
+%Explore some basic commands of image processing in MATLAB
+
 a=imread('C:\Users\abint\Documents\GitHub\MIPLAB6thSem\Original.jpg');
 imshow(a);
 
