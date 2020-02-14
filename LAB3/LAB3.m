@@ -7,9 +7,7 @@ green = img(:,:,2);
 blue = img(:,:,3);
 a = zeros(size(img, 1), size(img, 2));
 just_red = cat(3, red, a, a);
-
 just_green = cat(3, a, green, a);
-
 just_blue = cat(3, a, a, blue);
 
 
