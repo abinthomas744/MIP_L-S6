@@ -5,14 +5,12 @@ h=info.Height;
 b=info.BitDepth;
 p=((2^b)-1);
 
-for a=(0:h)
-    for b=(0:w)
-        for c=(0:p)
+for a=(0:1:h)
+    for b=(0:1:w)
+        for c=(0:1:p)
             if i(a,b)==c
-            i(p)=i(p)+1;
+            intensity(c)=intensity(c)+1;
             end
         end
     end
 end
-
-          
