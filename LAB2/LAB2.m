@@ -42,10 +42,10 @@ xlim([0 255]);
 Y=2;
 X=0.40*a.^Y;
 fig3=figure; imshow(X,[]);
-title('Power Log Transform')
+title('Power Law Transform')
 
 fig4=figure; plot(a,X);
-title('Power Log Transform');
+title('Power Law Transform');
 xlabel('Input');
 ylabel('Output');
 xlim([0 255]);
@@ -72,7 +72,7 @@ saveas(fig8,'Negative.jpg');
 saveas(fig7,'Original.jpg');
 saveas(fig1,'Negplot.jpg');
 saveas(fig2,'Logplot.jpg');
-saveas(fig3,'PowerLog.jpg');
+saveas(fig3,'PowerLaw.jpg');
 saveas(fig4,'Powplot.jpg');
 saveas(fig5,'ConStretch.jpg');
 saveas(fig6,'ConStreplot.jpg');
