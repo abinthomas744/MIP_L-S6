@@ -9,7 +9,7 @@ LAB 03 Extracting R,G and B components of an RGB image.
 
 LAB 04 Plotting Histograms of an image and its Darker & Brighter variants.
 
-LAB 05 Histogram stretching and Equalization.
+LAB 05 Histogram Stretching and Equalization.
 
 LAB 06 Graylevel Slicing Without Preserving the Background.
 
