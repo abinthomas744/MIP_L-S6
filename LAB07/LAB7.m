@@ -24,4 +24,4 @@ xlabel(['Lower limit = ',num2str(a),' ,  Upper limit= ',num2str(b)]);
 
 
 saveas(fig1,'Original.jpg');
-saveas(fig2,'Gs_upb.jpg');
+saveas(fig2,'Gs_pb.jpg');
